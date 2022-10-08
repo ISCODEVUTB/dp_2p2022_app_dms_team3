@@ -1,3 +1,4 @@
 package main;
-public class Magazine {
+public abstract class Magazine implements I_Online {
+
 }
