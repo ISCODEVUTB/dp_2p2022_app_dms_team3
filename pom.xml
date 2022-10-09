@@ -18,22 +18,10 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.13.1</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
-            <version>5.8.1</version>
-            <scope>test</scope>
-            <!-- https://mvnrepository.com/artifact/org.jacoco/jacoco-maven-plugin -->
-                  <groupId>org.jacoco</groupId>
-                  <artifactId>jacoco-maven-plugin</artifactId>
-                  <version>0.8.8</version>
-        </dependency>
+            <version>4.13.1</version>
+            <scope>test</scope>    
     </dependencies>
     <build>
         <plugins>
