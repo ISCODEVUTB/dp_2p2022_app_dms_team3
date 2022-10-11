@@ -1,7 +1,7 @@
 package test;
 
-import main.CategoryI;
-import main.Formats;
+import Proyect.CategoryI;
+import Proyect.Formats;
 
 import java.util.Arrays;
 

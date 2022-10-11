@@ -1,9 +1,9 @@
 package test;
 
-import main.Formats;
-import main.I_PDF;
+import Proyect.Formats;
+import Proyect.iPDF;
 
-public class Book extends DocumentBuilder implements I_PDF {
+public class Book extends DocumentBuilder implements iPDF {
     Book(String title){
         super.title = title;
     }

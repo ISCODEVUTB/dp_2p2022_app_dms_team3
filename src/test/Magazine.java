@@ -1,9 +1,9 @@
 package test;
 
-import main.Formats;
-import main.I_Online;
+import Proyect.Formats;
+import Proyect.iOnline;
 
-public class Magazine extends DocumentBuilder implements I_Online {
+public class Magazine extends DocumentBuilder implements iOnline {
     Magazine(String title){
         super.title = title;
     }

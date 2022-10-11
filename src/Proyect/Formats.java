@@ -1,4 +1,4 @@
-package main;
+package Proyect;
 public enum Formats {
     Digital, Audio, Printed
 }

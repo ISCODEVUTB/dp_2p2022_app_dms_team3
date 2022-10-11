@@ -1,6 +1,6 @@
 package test;
 
-import main.Formats;
+import Proyect.Formats;
 
 public class Thesis extends DocumentBuilder{
 

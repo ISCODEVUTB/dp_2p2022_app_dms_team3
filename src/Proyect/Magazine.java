@@ -1,5 +1,5 @@
-package main;
-public abstract class Magazine implements I_Online {
+package Proyect;
+public abstract class Magazine implements iOnline {
     private String Name; // Magazine Name.
     private String Magazine; // Target audience. (Santiago). "Academic Magazine, Entertainment Magazine"
     Magazine(String Name, String Magazine){

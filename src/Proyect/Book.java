@@ -1,5 +1,5 @@
-package main;
-public class Book implements I_PDF {
+package Proyect;
+public class Book implements iPDF {
     private String Name; // Book Name.
     private String Public; // Target audience. (Santiago). "Children, Boys, Girls, etc"
     private String Scene; // Reading scenario. (Santiago). "Library, etc"

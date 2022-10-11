@@ -1,10 +1,10 @@
 package test;
 
-import main.Formats;
-import main.I_Online;
-import main.I_PDF;
+import Proyect.Formats;
+import Proyect.iOnline;
+import Proyect.iPDF;
 
-public class Scientific extends DocumentBuilder implements I_PDF, I_Online {
+public class Scientific extends DocumentBuilder implements iPDF, iOnline {
     Scientific(String title){
         super.title = title;
     }
